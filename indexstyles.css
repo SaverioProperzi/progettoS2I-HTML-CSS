@@ -1,0 +1,294 @@
+/*index.html*/
+
+/*responsive*/
+
+
+/*styles*/
+
+body{
+  background-color: #c5baaf;
+}
+
+/*navbar*/
+.navbar{
+  width: 100%;
+  padding: 10px 15px;
+  position: fixed;
+  top:0px;
+  right: 0px;
+  left: 0px;
+  background-color:white;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+/*pulsanti*/
+.port {
+  background-color: #e1ce7a;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1000px;
+  bottom: 10px;
+  border-radius: 25px;
+  padding:10px;
+  border: none;
+  cursor: pointer;
+}
+
+.port:hover{
+  box-shadow: 1px 2px 3px gray;
+}
+
+.c {
+  margin-left: 20px;
+  background-color: #e1ce7a;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 10px;
+  margin-right: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.c:hover{
+  box-shadow: 1px 2px 3px gray; 
+}
+
+/*sezione intro*/
+.head{
+  padding: 40px;
+}
+
+.titolo{
+  display: flex;
+  justify-content: center;
+  font: 40px;
+  margin-top: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.intro{
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  margin-top: 90px;
+  font-family: monospace;
+}
+
+/*immagini*/
+ .containers {
+  
+  text-align: center;
+  color: #424b54;
+  font-size: 30px;
+  font-weight: bold; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: transform .2s;
+  margin-bottom: 40px
+  ;
+  }
+
+  .containers:hover{
+    transform: scale(1.1);
+   }
+   
+  .blockchain, .bar, .lost {
+    bottom: 20px;
+    left: 150px;
+    background-color: #e1ce7a;
+    border-radius: 10px;
+    }
+
+/*tratti personalità*/
+.backpers{
+  background-color: #424b54;
+  padding: 150px 150px 150px 100px;
+}
+
+ .pers{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 20px;
+  font-size: 35px;
+ }
+
+/*competenze*/
+
+.scrittura{
+  margin-bottom: 240px;
+  padding-bottom: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  border: 5px solid black;
+  background-color: white;
+}
+
+.titlec{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*contatti*/
+ .content{
+  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  float: left;
+  font-family: monospace;
+  font-size: 20px;
+ }
+
+ #modulo{
+  border: solid 4px black;
+  border-bottom: solid 4px black;
+  padding: 15px;
+  background: #424b54;
+  color: white;
+  overflow: auto;
+  margin-top: 20px;
+ }
+
+ #modulo ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+ }
+
+ #modulo ul li{
+  padding: 10px 0;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+ }
+
+ #modulo ul li.tre,#modulo ul li.quattro{
+  float: none;
+  clear: left;
+  width: 100%;
+ }
+
+ #modulo ul li.uno{
+  margin-right: 1%;
+ }
+
+ #modulo ul li.quattro{
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ #modulo ul li label{
+  display: block;
+  padding-bottom: 5px;
+  width: 50%;
+ }
+
+ #modulo ul li input{
+  border: solid 2px black;
+  background: white;
+  color: black;
+  float: left;
+ }
+
+ #modulo ul li .testo{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+ }
+
+ #modulo ul li textarea{
+  padding: 10px;
+  color: black;
+  width: 100%;
+  height: 180px;
+  background: white;
+  border: solid 2px black;
+  box-sizing: border-box;
+ }
+
+ #modulo ul li .pulsante{
+  color: white;
+  background:black;
+  border: solid 2px black;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.05s;
+ }
+
+ #modulo ul li .pulsante:hover{
+  background: white;
+  color: black;
+ }
+
+
+
+/*footer*/
+.footer{
+  background:#000;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+
+  .footer .row ul{
+    width:100%;
+    }
+    
+  .footer .row ul li{
+   display:inline-block;
+   margin:0px 30px;
+    }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }

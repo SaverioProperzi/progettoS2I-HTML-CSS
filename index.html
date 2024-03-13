@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="Italia">
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <meta name="description" content="Il mio sito web">
+  <meta name="keywords" content="HTML, CSS, javascript">
+  <meta name="author" content="Saverio Properzi">
+
+  <meta property="og:type" content="sito web">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Saverio Properzi">
+  <meta property="og:description" content="Sito personale Saverio Properzi">
+  <meta property="og:locale" content="it_IT">
+  
+  <title>Saverio Properzi</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" />
+
+  <!--Link-->
+  <link rel="stylesheet" href="indexstyles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  
+  <!--EmailJS-->
+  <script src="index.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "MuwkPo5PVciUBwuCv",
+      });
+    })();
+  </script>
+  </head>
+
+<body>
+
+  <!--Navbar-->
+  <div class="navbar">
+    <img class="logo" src="logo.png" alt="Logo" width="160" height="40" />
+    
+    <a href="portfolio.html" target="_blank"><button class="port">Portfolio </button></a>
+    <a href="curriculum.html" target="_blank"><button class="c">CV</button></a>
+  </div>
+ 
+  <!--Header-->
+  <header>
+    <div class="head">
+      <h1 class="titolo">Su di me:</h1>
+      <p class="intro">Benvenuti nel mio sito personale! Mi chiamo Saverio Properzi, ho 21 anni e vengo da Pollenza (MC), Italia.
+        Sono un'aspirante sviluppatore Blockchain, tutt'ora barista e con le passioni per il calcio e per il vintage.
+      </p>
+    </div>
+  </header>
+  
+  <!--Sezione img--> 
+    <section>
+      <div  class="containers"> 
+        <img src="blockchaindef.jpg" alt ="blockchain" style ="width:100%;"> 
+        <div class="blockchain">COSA VOGLIO DIVENTARE: <br>
+          Blockchain developer, sto attualento studiando sulla piattafroma di Start2Ipact
+        </div> 
+      </div>
+      
+       <div class="containers"> 
+        <img src="bar2def.jpg" alt ="bar" style ="width:100%;"> 
+        <div class="bar">IL MIO LAVORO ATTUALE: <br>
+          Da ormai due anni faccio il barista, adoro lavorare a contatto con le persone
+        </div> 
+       </div>
+      
+       <div class= "containers"> 
+        <img src="lost3def.jpg" alt ="lost" width="100%"> 
+        <div class="lost">UNA DELLE MIE PASSIONI: <br>
+          Il vintage, ho da poco aperto un negozio online
+        </div> 
+       </div >
+    </section>
+  <!--Descrizione personalità-->
+  <section>
+    <div class="backpers"> 
+      <p class="pers">I tratti della mia personalità? Ambizioso, attento, curioso, organizzato e professionale</p>
+    </div>
+  </section>
+
+ 
+
+  <!--Competenze-->
+  <section> 
+   <div class="scrittura">
+    <p class="titlec"> LE MIE COMPETENZE:
+     <ul>
+      <li><strong>SOLIDITY:</strong>conoscenza base.</li> <br>
+      <li><strong>ETHEREUM:</strong>conoscenza approfondita del funzionamento della blockchain e dei suoi token.</li> <br>
+      <li><strong>HTML&CSS:</strong>conoscenza dei linguaggi di programmazione. Pratica da migliorare con progetti futuri.</li>
+     </ul>     
+    </p>
+   </div>
+ </section>
+  
+ <!--Modulo contatti-->
+  <section id="modulo">
+    <div class="content">
+      <p class="cont">Compila il modulo per info:</p>
+      <form action="" method="post">
+        <ul>
+          <li class="uno">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="testo">
+          </li>
+          <li class="due">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="testo">
+          </li>  
+          <li class="tre">
+            <label for="testo">Messaggio</label>
+            <textarea name="testo" id="testo"></textarea>
+          </li>  
+          <li class="quattro">
+            <input type="submit" value="richiedi informazioni" class="pulsante" onclick="sendMail ()">
+          </li>    
+        </ul>
+       </form>
+    </div>
+  </section> 
+
+  
+
+<!--footer-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   <footer class="footer">
+     <div class="container">
+      <div class="row"> 
+        <div class="footer-col">
+          <h4>Follow me</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+
+</body>
+</html>
+    
+  
+  
+  
+    
+
+
+
+
+
+ 

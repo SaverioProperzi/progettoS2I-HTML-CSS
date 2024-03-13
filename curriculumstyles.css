@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  background-color: #c5baaf;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+}
+
+.sinistra{
+  width: 60vw;
+}
+
+.port {
+  background-color: #e1ce7a;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  bottom: 100px;
+  border-radius: 25px;
+  padding:10px;
+  border: none;
+  cursor: pointer;
+}
+
+.port:hover{
+  box-shadow: 1px 2px 3px gray;
+}
+
+.c {
+  margin-left: 20px;
+  background-color: #e1ce7a;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 100px;
+  margin-right: 1150px;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.c:hover{
+  box-shadow: 1px 2px 3px gray; 
+}
+
+
+header{
+  padding: 15px 25px;
+}
+
+header h1{
+  align-items: center;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+header h1 > i{
+  margin-right: 0.4rem;
+}
+
+#nome{
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: right;
+  text-transform: uppercase; 
+}
+
+#formazione{
+  color: rgba(150, 0, 0, 0.9);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#infopers{
+  margin: 40px 0;
+}
+
+.sezione{
+  border-top: solid 1px  rgb(200, 0, 0);  
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.sezione > h1{
+  background: #EEE;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 5px 20px;
+  margin-bottom: 2rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.container-esperienza{
+  text-align: right;
+}
+
+#infopers p{
+  line-height: 1.3rem;
+  padding: 10px 20px 15px 25px;
+}
+
+#esperienza p{ 
+  line-height: 1;
+}
+
+#infopers p,
+#esperienza p{
+  font-size: 0.8rem;
+  padding-right: 20px;
+}
+
+.titolo-esperienza{
+  font-size: 1rem;
+  font-weight: 700;
+  padding-right: 20px;
+}   
+
+.-esperienza{
+  color: rgba(150, 0, 0, 0.9);
+  text-transform: uppercase;
+}
+
+.data-esperienza{
+  color: rgba(0,0,0,0.4);  
+  margin-bottom: 1rem;
+}
+
+.descrizione-esperienza{
+  padding-left: 25px;
+}
+
+.container-esperienza{
+  margin-bottom: 2rem;    
+}
+
+/* Aside */
+
+aside{
+  background: #EDEDED;
+  box-shadow: -3px 0 15px rgba(0,0,0,0.5);
+  width: 40vw;
+}
+
+.immagine-profilo{
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.immagine-profilo img{
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out .3s;
+}
+
+.immagine-profilo img:hover{
+  transform: scale(1.25);
+}
+
+/* informazioni generali*/
+
+.infor-line{
+  align-items: stretch;
+  color: rgba(255,255,255,0.8);
+  display: flex;
+  height: 3rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.infor-line:hover{
+  box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+.infor-line i{
+  line-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.infor-line > span{
+  flex: 1;
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+
+.infor-line a{
+  color: inherit;
+  text-decoration: none;
+}
+
+

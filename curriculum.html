@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="Italia">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Il mio sito web">
+  <meta name="keywords" content="HTML, CSS, javascript">
+  <meta name="author" content="Saverio Properzi">
+
+  <meta property="og:type" content="sito web">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Saverio Properzi">
+  <meta property="og:description" content="Sito personale Saverio Properzi">
+  <meta property="og:locale" content="it_IT">
+  
+  <title>Saverio Properzi</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!--Link-->
+  <link rel="stylesheet" href="curriculumstyles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!--EmailJS-->
+  <script src="index.js"></script>
+  <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+     emailjs.init({
+     publicKey: "MuwkPo5PVciUBwuCv",
+     });
+   })();
+  </script>
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="sinistra">
+  <header>
+    <img src="logo.png" alt="logo">
+    <a href="index.html" target="_blank">
+      <button class="c">Home</button>
+    </a>
+
+    <a href="portfolio.html" target="_blank">
+      <button class="port">Portfolio</button>
+    </a>
+
+    <div id="infor">
+      <p id="nome">Saverio Properzi</p>
+      <p id="formazione">Barista</p>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section id="infopers" class="sezione">
+        <h1>Informazioni personali</h1>
+        <p>
+          Sono un barista da due anni presso il bar Caffein Sport di Pollenza (MC), Italia. <br>
+          Questo è il mio primo vero e proprio lavoro, prima ho avuto esperienze come apprendista operaio nel settore montaggio infissi. <br>
+          Durante le stagioni estive passate ho svolto l'attività di assistente presso le colonie marine del comuni di Pollenza. <br>
+          Attualmente, oltre all'impiego lavorativo, sto frequentando nella piattaforma di Start2Impact il master Blockchain Developer, sperando che un giorno possa diventare il mio lavoro.
+        </p>
+      </section>
+
+      <section id="esperienza" class="sezione"> 
+        <h1>Esperienze lavorative</h1>
+
+        <ul>
+          <li>
+            <div class="container-esperienza">
+              <h1 class="titolo-esperienza">Sandro Properzi SRL</h1>
+              <p class="-esperienza">Apprendista operaio</p>
+              <p class="data-esperienza">10/06/2020 - 10/09/2020</p>
+              <p class="descrizione esperienza">Esperienza in cui ho appreso abilità nel montaggio infissi</p>
+            </div>
+          </li>
+          <li>  
+            <div class="container-esperienza">
+              <h1 class="titolo-esperienza">Comune di Pollenza</h1>
+              <p class="-esperienza">Assistente colonie marine</p> 
+              <p class="data-esperienza">02/07/2021 - 31/07/2021</p>
+              <p class="descrizione-esperienza">Esperienza in cui ho migliorato il rapporto umano e il senso di responsabilità.</p>
+            </div>
+          </li>
+          <li>  
+            <div class="container-esperienza">
+              <h1 class="titolo-esperienza">Caffeina Sport SRL</h1>
+              <p class="-esperienza">Barista</p> 
+              <p class="data-esperienza">06/04/2022 - Oggi</p>
+              <p class="descrizione-esperienza">Esperienza in cui ho appreso e migliorato le abilità di Barman.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </article>
+  </main>
+</div>
+
+<aside>
+  <div id="informazioni-contatto">
+    <div class="immagine-profilo">
+      <img src="fotoprofilodef.jpg" alt="immagine profilo">
+    </div>
+    </div>
+  </div>
+</aside>
+</body>
+</html>
